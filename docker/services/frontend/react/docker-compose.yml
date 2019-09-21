@@ -1,0 +1,11 @@
+version: "3.7"
+
+services:
+  app:
+    command: yarn start
+    image: node:12.10.0
+    ports:
+      - 3001:3000
+    volumes:
+      - ../../../../repositories/frontend/react:/workspace
+    working_dir: /workspace
