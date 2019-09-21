@@ -1,4 +1,4 @@
-# Enterprise FuulStack MERN App
+# Enterprise FullStack MERN App
 ___
 
 ### Start
