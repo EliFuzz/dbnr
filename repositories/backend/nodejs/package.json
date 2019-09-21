@@ -1,0 +1,30 @@
+{
+  "name": "backend-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon",
+    "build": "NODE_ENV=production node"
+  },
+  "dependencies": {
+    "express": "4.17.1",
+    "mongoose": "5.7.1",
+    "winston": "3.2.1",
+    "cors": "2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "1.19.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EliFuzz/dbnr.git"
+  },
+  "keywords": [],
+  "author": "RA",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EliFuzz/dbnr/issues"
+  },
+  "homepage": "https://github.com/EliFuzz/dbnr#readme"
+}
